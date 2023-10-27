@@ -1,0 +1,37 @@
+/*********************
+THEME COLOR - DEFAULT
+*********************/
+a.scroll-to-whatsapp {
+	width: 55px;
+	height: 55px;
+	line-height:25px;
+	text-align: center;
+	color:#ffffff !important;
+	z-index:80;
+	font-size:18px;	
+	border: 1px solid transparent;
+	border-radius: 0%;
+	position: fixed;
+	top: 550px;
+	right: 0px;
+	transition:all 400ms;
+}
+    a.scroll-to-whatsapp:not(:hover) {
+        color: #ffffff !important;
+        border-color: #25d366;
+        background-color: #25d366;
+        filter: brightness(110%);
+    }
+.offset250 a.scroll-to-whatsapp {
+	visibility:visible;
+	opacity:1;
+	transition:all 200ms;
+}
+a.scroll-to-whatsapp:hover{
+	background-color:#25d366;
+	color: #ffffff !important;
+	filter: brightness(110%);
+     -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
